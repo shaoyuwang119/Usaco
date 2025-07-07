@@ -1,8 +1,7 @@
-import java.io.*;
 import java.util.*;
 
 public class Bronze1 {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int N = scan.nextInt();
         int U = scan.nextInt();
@@ -47,7 +46,6 @@ public class Bronze1 {
 
     public static int findNewUpdates(int[][] grid, int r, int c, int last) {
         int updates = last;
-        int len = grid.length;
         updates -= findUpdates(grid, r, c);
         if (r != -1 && c != -1) {
             grid[r][c] = -1 * grid[r][c];
