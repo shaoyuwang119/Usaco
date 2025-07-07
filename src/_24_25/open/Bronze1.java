@@ -1,3 +1,5 @@
+package _24_25.open;
+
 import java.io.*;
 import java.util.*;
 
