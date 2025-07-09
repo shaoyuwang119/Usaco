@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Bronze1 {
+public class Reflection {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int N = scan.nextInt();

@@ -1,9 +1,7 @@
-package _24_25.open;
-
 import java.io.*;
 import java.util.*;
 
-public class Bronze1 {
+public class HoofPaperSciM1 {
 
     static HashMap<Integer, HashSet<Integer>> rules = new HashMap<>();
     // key represents symbol, values is a collection of symbols that the key loses against

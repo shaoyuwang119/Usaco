@@ -1,9 +1,6 @@
-package _24_25.open;
-
 import java.util.*;
-import java.io.*;
 
-public class Bronze3 {
+public class MooinTime {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int stringLen = scan.nextInt();
