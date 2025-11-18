@@ -16,7 +16,7 @@ public class MixMilk {
 		for (int i = 0; i < N; i++) {
 			capacity[i] = scan.nextInt();
 			milk[i] = scan.nextInt();
-      scan.nextLine();
+      		scan.nextLine();
 		}
 
 		for (int i = 0; i < TURN_NUM; i++) {
@@ -34,5 +34,4 @@ public class MixMilk {
 		}
 
 		for (int m : milk) { System.out.println(m); }
-		io.close();
 	}
